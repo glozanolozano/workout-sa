@@ -141,3 +141,21 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vite
+dist
+dist-ssr
+*.local
+.vite
+
+# IDE
+.vscode
+.idea
+.DS_Store
